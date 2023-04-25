@@ -1,0 +1,45 @@
+.inner-box-contaimer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5%;
+}
+
+.empty-div{
+    border: 1px solid black;
+    padding: 3%;
+    border-radius: 5px;
+}
+
+.description-view{
+    text-align: start;
+}
+
+.titleText{
+    font-weight: bold;
+    color: blue;
+    font-size: large;
+}
+
+.question-answer-view{
+    display: flex;
+    align-items: center;
+}
+
+.plushView{
+    display: flex;
+    align-items: center;
+}
+
+.plushIcon{
+    position: absolute;
+    color: blue;
+    left: 50%;
+    cursor: pointer;
+}
+
+.buttonView{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
